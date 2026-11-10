@@ -1,0 +1,17 @@
+# 실행 산출물 (Airflow가 계속 만들어 냄)
+logs/
+output/
+__pycache__/
+*.pyc
+
+# 실습 데이터
+data/
+
+# 자격증명이 들어갈 수 있는 파일
+*.pem
+
+# Airflow가 처음 뜰 때 자동으로 만드는 설정 파일 (비밀키가 들어감)
+config/airflow.cfg
+
+# macOS
+.DS_Store
