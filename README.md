@@ -4,8 +4,8 @@
 
 ## 실습 환경
 
-macOS(Apple Silicon)에서 Docker Desktop으로 Airflow 3.4.0과 Spark를 띄워 실습했습니다.
+Docker Compose로 Airflow 3.4.0(CeleryExecutor)과 Spark 3.5.7 Standalone 클러스터를 따로 띄웠습니다.
 
 ## 회고
 
-Airflow로 작업 순서를 정하고 Spark로 데이터를 집계하는 흐름을 익혔습니다.
+XCom, 재시도, 백필처럼 Airflow를 운영할 때 필요한 기능을 직접 확인했습니다.
