@@ -4,8 +4,8 @@
 
 ## 실습 환경
 
-macOS(Apple Silicon)에서 Docker Desktop으로 Airflow 3.4.0과 Spark를 띄워 실습했습니다.
+Airflow는 직접 빌드한 커스텀 이미지(week7-airflow:soyang)로 실행했습니다.
 
 ## 회고
 
-Airflow로 작업 순서를 정하고 Spark로 데이터를 집계하는 흐름을 익혔습니다.
+S3에서 받은 데이터를 Spark로 집계해 다시 S3에 올리는 파이프라인을 만들어 봤습니다.
